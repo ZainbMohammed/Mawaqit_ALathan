@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- boostrap -->
+    <link rel="stylesheet" href="./boostrap/bootstrap.min.css" />
+    <script src="./boostrap/bootstrap.bundle.min.js"></script>
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500&display=swap" rel="stylesheet">    
+    
+    <!-- import axios package -->
+    <script src="./node_modules/axios/dist/axios.min.js"></script>
+    <title>Mawaqite Al athan</title>
+  </head>
+  <body>
+
+    <!-- image -->
+    <div class="img">
+        <img src="./images/mawagit.jpg" alt="">
+        
+    </div>
+    <!-- body of the page -->
+    <div class="container">
+        <!-- hrader -->
+        <div class="part1">
+            <h1 id="header"></h1>
+            <div class="test">
+              <h4 id="date"><span id="dateNow"></span></h4>
+              <select id="selectCity">
+                <!-- <option value="">الرياض</option>
+                <option value="">القصيم</option>
+                <option value="">المدينه المنوره</option> -->
+              </select>
+            </div>
+        </div>
+        <!-- separate by horizontal line -->
+        <hr >
+        <!-- cards section -->
+        <div class="part2">
+            <div class="row">
+                <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+                    <div class="card" style="width: 10rem;">
+                        <div class="card-body">
+                          <h5 class="card-title">الفجر</h5>
+                          <hr>
+                          <p id="fajr-time" class="card-text">00:00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+                    <div class="card" style="width: 10rem;">
+                        <div class="card-body">
+                          <h5 class="card-title">الشروق</h5>
+                          <hr>
+                          <p id="sunrise-time" class="card-text">00:00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+                    <div class="card" style="width: 10rem;">
+                        <div class="card-body">
+                          <h5 class="card-title">الظهر</h5>
+                          <hr>
+                          <p id="dhuhr-time" class="card-text">00:00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+                    <div class="card" style="width: 10rem;">
+                        <div class="card-body">
+                          <h5 class="card-title">العصر</h5>
+                          <hr>
+                          <p id="asr-time" class="card-text">00:00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+                    <div class="card" style="width: 10rem;">
+                        <div class="card-body">
+                          <h5 class="card-title">المغرب</h5>
+                          <hr>
+                          <p id="sunset-time" class="card-text">00:00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+                    <div class="card" style="width: 10rem;">
+                        <div class="card-body">
+                          <h5 class="card-title">العشاء</h5>
+                          <hr>
+                          <p id="isha-time" class="card-text">00:00</p>
+                        </div>
+                    </div>
+                </div>            
+            </div>
+
+        </div>
+        <div class="footer">
+          <p style="direction: ltr;">© 2024 Zainab Mohamed</p>
+      </div>
+    </div>
+
+    <!-- imprt js file -->
+    <script src="./request.js"></script>
+  </body>
+</html>
