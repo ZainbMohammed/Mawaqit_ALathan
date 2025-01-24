@@ -1,8 +1,7 @@
-Prayer times in the governorates of Yemen
+# مواقيت الصلاه في اليمن
 
 ![Main Page](mawa1.png)
 
-
-Chose the governorate
+### اختر المحافظة التي تريد عرض مواقيت الصلاه فيها
 
 ![select city](mawa2.png)
